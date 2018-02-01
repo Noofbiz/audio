@@ -1,4 +1,4 @@
-// +build darwin linux
+//+build windows
 
 package audio
 
@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/mobile/exp/audio/al"
+	"engo.io/audio/win/al"
 )
 
 // Format represents a PCM data format.
